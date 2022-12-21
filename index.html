@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="keywords" content="志成zhi_cheng,zhi_cheng233,志成zhi_cheng's Home,志成home,ZChome,home,志成的主页">
+	<meta name="description" content="Hello, I'm 志成zhi_cheng. Welcome to my homepage.">
+	<meta name="author" content="志成zhi_cheng">
+	<title>志成's Home</title>
+	<link id="favicon" rel="icon" href="https://tva1.sinaimg.cn/large/008qLT8ggy1h6q69154tij30ku0lbtl1.jpg">
+	<!--https://tvax3.sinaimg.cn/large/006MpbfMgy1gva3w6r52jj61sk1u14qp02.jpg-->
+	<link rel="stylesheet" href="./css/home.css">
+	<link
+		href="https://font.sec.miui.com/font/css?family=MiSans:400,500,600,700:Chinese_Simplify,Latin,Chinese_Traditional&amp;display=swap"
+		rel="stylesheet">
+	<link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/5.1.3/css/bootstrap-grid.min.css"
+		type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="bg"></div>
+	<div class="container">
+		<div class="main-box">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="box-left">
+						<img src="https://img.gejiba.com/images/539302e7ed0aeefb9620cc6c4b8bc841.jpg" alt="Avatar"
+							title="不可以rua！">
+						<h2>志成zhi_cheng</h2>
+					</div>
+
+				</div>
+				<div class="col-md-9">
+					<div class="box-right">
+						<ul class="nav-bar">
+							<li class="nav-item nav-active" id="home">
+								<a href="javascript:goHome();">Home</a>
+							</li>
+							<li class="nav-item" id="blog">
+								<a href="javascript:goBlog();">Blog</a>
+							</li>
+							<li class="nav-item" id="projects">
+								<a href="javascript:goProjects();">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://api.imlazy.ink" target="_blank">Lazy's API</a>
+							</li>
+						</ul>
+						<div class="box-content" id="homeの">
+							<p>Hello, I'm <span id="hi"></span></p>
+							<p>Age: 16</p>
+							<p>Date of birth: 12-08(Lunar calendar)</p>
+							<p>E-mail: <a href="mailto:2473367376@qq.com">2473367376@qq.com</a></p>
+							<p>Contact me: <a href="http://wpa.qq.com/msgrd?v=3&uin=2473367376&site=qq&menu=yes"
+									target="_blank">QQ</a> | <a href="https://space.bilibili.com/350354944"
+									target="_blank">bilibili</a> | <a href="https://github.com/zhicheng233"
+									target="_blank">Github</a> [<a href="https://github.com/LazyCreeper/LightPage"
+									target="_blank" style="color: #858585;">This Project</a>]</p>
+							<p>Copyright &copy; 2022 zhi_cheng233 all right reserved</p>
+						</div>
+
+						<div class="box-content" id="blogの">
+							<div id="blogs" style="display: inline-grid;">
+								<!-- <p>加载不出？试试访问：<a href="https://blog.zhicheng233.ml" target="_blank">https://blog.zhicheng233.ml</a></p> -->
+								<p>抱歉该Hexo主题暂不支持SSR，请访问：<a href="https://blog.zhicheng233.ml" target="_blank">https://blog.zhicheng233.ml</a></p>
+							</div>
+						</div>
+
+						<div class="box-content" id="projectsの">
+							<div class="box-item"><a href="https://blog.zhicheng233.ml/Project" target="_blank">Project Link</a></div>
+							<!-- <div class="box-item"><a href="https://blog.imlazy.ink:233/" target="_blank">Lazy's Blog</a>
+							</div>
+							<div class="box-item"><a href="https://api.imlazy.ink" target="_blank">雫 API</a></div>
+							<div class="box-item"><a href="https://mcsm.imlazy.ink" target="_blank">MCSManager 文档</a>
+							</div>
+							<div class="box-item"><a href="https://live.lazy.ink" target="_blank">Lazy's Live</a></div>
+							<div class="box-item"><a href="https://blog.imlazy.ink:233/index.php/archives/335/"
+									target="_blank">MCSM9 Vivid主题</a></div>
+							<div class="box-item"><a href="https://blog.imlazy.ink:233/index.php/archives/253/"
+									target="_blank">MCSM9 二次元主题</a></div>
+							<div class="box-item"><a href="https://blog.imlazy.ink:233/index.php/archives/38/"
+									target="_blank">宝塔面板二次元主题</a></div>
+							<div class="box-item"><a href="https:///blog.imlazy.ink:233/index.php/archives/382/"
+									target="_blank">宝塔面板 Vivid主题</a></div> -->
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"
+		type="application/javascript"></script>
+	<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/5.1.3/js/bootstrap.min.js"
+		type="application/javascript"></script>
+	<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js"
+		type="application/javascript"></script>
+	<script>
+		$("#blogの").hide();
+		$("#projectsの").hide();
+	</script>
+	<script src="./js/home.js" type="application/javascript"></script>
+</body>
+
+</html>
