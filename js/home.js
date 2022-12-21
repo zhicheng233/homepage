@@ -6,6 +6,7 @@ var typed = new Typed('#hi', {
         "a student.",
         "good at loaf on the job.",
         "a pvper.",
+        "a YouTuber.",
         "......?"
     ],
     typeSpeed: 100,
