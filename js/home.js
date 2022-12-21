@@ -5,6 +5,7 @@ var typed = new Typed('#hi', {
         "from Guangdong, China.",
         "a student.",
         "good at loaf on the job.",
+        "a pvper.",
         "......?"
     ],
     typeSpeed: 100,
