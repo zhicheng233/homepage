@@ -9,6 +9,7 @@ Link:https://github.com/LazyCreeper/LightPage
 2. 显示 Typecho 文章（RSS）
 3. 亮色/暗黑模式
 4. ~~二次元~~
+5.Aplayer+MetingJS播放器（志成后来加的）
 
 ### 演示
 https://lazy.ink
