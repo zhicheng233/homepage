@@ -7,6 +7,7 @@ var typed = new Typed('#hi', {
         "good at loaf on the job.",
         "a pvper.",
         "a YouTuber.",
+        "Trans",
         "......?"
     ],
     typeSpeed: 100,
