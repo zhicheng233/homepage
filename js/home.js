@@ -32,7 +32,7 @@ function goBlog() {
     $("#homeの").hide();
     $("#projectsの").hide();
 
-    $.get("https://blog.zhicheng2333.ml", function (data) {
+    $.get("https://blog.zhicheng233.top/rss2.xml", function (data) {
         $('#blogs').empty();
         $(data).find('item').each(function () {
             var $item = $(this);
